@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../ALU.srcs/sources_1/new" --include "../../../../ALU.srcs/sim_1/new" \
+"../../../../ALU.srcs/sources_1/new/ALU.v" \
+"../../../../ALU.srcs/sources_1/new/top_level.v" \
+"../../../../ALU.srcs/sim_1/new/tb_alu_random.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

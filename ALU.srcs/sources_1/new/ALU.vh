@@ -8,4 +8,7 @@
     `define OP_SRA   6'b000011
     `define OP_SRL   6'b000010
     `define OP_NOR   6'b100111
+    
+    `define OP_CODE_WIDTH 6
+    `define IO_BUS_WIDTH 8
 `endif // __ALU_VH__

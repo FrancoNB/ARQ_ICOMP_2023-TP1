@@ -2,26 +2,18 @@
 // Company: Facultad de Ciencias Exactas Físicas y Naturales
 // Authors: Robledo Valentin y Bottini Franco Nicolas 
 // 
-// Create Date: 24.10.2023 17:27:30
 // Module Name: ALU
 // Project Name: TP 1 - Arquitectura de Computadoras 2023 - Unidad Aritmetico Logica
 // Description: Implementación de una unidad aritmetico logica con las operaciones ADD, SUB, AND, OR, XOR, SRA, SRL, NOR, RESET
-// 
-// Dependencies: ALU.vh, common.vh
-// 
-// Revision:
-// Revision 0.01 - File Created
 //////////////////////////////////////////////////////////////////////////////////
-
-`include "ALU.vh"
-`include "common.vh"
 
 `timescale 1ns / 1ps
 
+`include "ALU.vh"
+
 module ALU
-    #
-    (
-        parameter IO_BUS_WIDTH = 8
+    #(
+        parameter IO_BUS_WIDTH = `IO_BUS_WIDTH
     )
     (
         input  wire [`OP_CODE_WIDTH - 1 : 0] op_code, 
