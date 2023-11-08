@@ -1,12 +1,3 @@
-//////////////////////////////////////////////////////////////////////////////////
-// Company: Facultad de Ciencias Exactas Físicas y Naturales
-// Authors: Robledo Valentin y Bottini Franco Nicolas 
-// 
-// Module Name: ALU
-// Project Name: TP 2 - Arquitectura de Computadoras 2023 - UART
-// Description: Implementación de una unidad aritmetico logica con las operaciones ADD, SUB, AND, OR, XOR, SRA, SRL, NOR, RESET
-//////////////////////////////////////////////////////////////////////////////////
-
 `timescale 1ns / 1ps
 
 `include "alu.vh"
