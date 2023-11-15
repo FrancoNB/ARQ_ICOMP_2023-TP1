@@ -44,11 +44,11 @@ module top_level
         endcase
     end
     
-    ALU
+    alu
     #(
       .IO_BUS_WIDTH(IO_BUS_WIDTH)
     )
-    u_ALU
+    u_alu
     (
       .op_code (op_code),
       .data_a  (data_a),
